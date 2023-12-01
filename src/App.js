@@ -1,9 +1,16 @@
-import './App.css';
+import "./App.css";
+import Footer from "./Components/Footer/Footer";
+import Header from "./Components/Header/Header";
+import HomePage from "./Components/HomePage/HomePage";
+import Seamless from "./Components/Seamless/Seamless";
 
 function App() {
   return (
     <div className="App">
-      <h2>HireQuotient</h2>
+      <Header />
+      <HomePage />
+      <Seamless />
+      {/* <Footer /> */}
     </div>
   );
 }

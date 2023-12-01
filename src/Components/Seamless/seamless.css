@@ -1,0 +1,24 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.seamlessContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.seamlessTitle {
+  color: #000000;
+  padding: 0.5vmax 0.8vmax;
+  background-color: #f1f2f4;
+  border-radius: 20px;
+  font-size: 16px;
+  display: flex;
+  justify-content: start;
+  border: none;
+  font-weight: 700;
+  font-family: "Plus Jakarta Sans", "Plus Jakarta Sans Placeholder", sans-serif;
+  font-style: normal;
+  line-height: 19px;
+}

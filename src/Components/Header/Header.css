@@ -1,0 +1,102 @@
+.headerMain {
+  display: flex;
+  justify-content: center;
+  height: 4vmax;
+  align-items: center;
+  border-bottom: 1px solid #dfdede;
+  background-color: #fef9f6;
+}
+
+.logoContainer > p {
+  font-size: 16px;
+  font-weight: 700;
+  color: #000000;
+  font-family: "Plus Jakarta Sans", "Plus Jakarta Sans Placeholder", sans-serif;
+  font-style: normal;
+  line-height: 18px;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 70vw;
+}
+
+.navLinkContainer {
+  /* display: grid;
+    width: 45%;
+    justify-self: center;
+    grid-template-columns: repeat(5, 1fr); */
+  align-items: flex-start;
+  display: flex;
+  flex: none;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 40px;
+  height: min-content;
+  justify-content: flex-start;
+  overflow: visible;
+  padding: 0;
+  position: relative;
+  width: min-content;
+}
+
+.navLinkContainer > p {
+  font-size: 16px;
+  font-weight: 700;
+  color: #7e7d88;
+  font-family: "Plus Jakarta Sans", "Plus Jakarta Sans Placeholder", sans-serif;
+  font-style: normal;
+  line-height: 18px;
+}
+
+.navLinkContainer > p:hover {
+  text-decoration: underline;
+  color: #000000;
+  cursor: pointer;
+}
+
+.navBtnContainer {
+  display: flex;
+  flex-direction: row;
+  column-gap: 0.5vmax;
+  align-items: center;
+}
+
+.loginBtn {
+  padding: 0.5vmax 0.8vmax;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #f1f2f4;
+  font-size: 16px;
+  border: none;
+  font-weight: 700;
+  color: #000000;
+  font-family: "Plus Jakarta Sans", "Plus Jakarta Sans Placeholder", sans-serif;
+  font-style: normal;
+  line-height: 24px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.loginBtn:hover {
+  transform: scale(1.1);
+}
+
+.getStartedBtn {
+  padding: 0.5vmax 0.8vmax;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #000000;
+  font-size: 16px;
+  border: none;
+  font-weight: 700;
+  color: #ffffff;
+  font-family: "Plus Jakarta Sans", "Plus Jakarta Sans Placeholder", sans-serif;
+  font-style: normal;
+  line-height: 24px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.getStartedBtn:hover {
+  transform: scale(1.1);
+}
