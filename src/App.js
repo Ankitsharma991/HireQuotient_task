@@ -3,6 +3,9 @@ import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
 import HomePage from "./Components/HomePage/HomePage";
 import Seamless from "./Components/Seamless/Seamless";
+import SmartPage from "./Components/Smartpage/SmartPage";
+import Seamless2 from "./Components/Seamless2/Seamless2";
+import SmartPage2 from "./Components/Smart2/SmartPage2";
 
 function App() {
   return (
@@ -10,7 +13,10 @@ function App() {
       <Header />
       <HomePage />
       <Seamless />
-      {/* <Footer /> */}
+      <SmartPage />
+      <Seamless2 />
+      <SmartPage2 />
+      <Footer />
     </div>
   );
 }

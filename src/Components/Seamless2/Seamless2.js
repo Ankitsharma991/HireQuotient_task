@@ -1,15 +1,17 @@
 import React, { Fragment } from "react";
-import "./seamless.css";
-import myImage from "../../images/2.png";
-import babyImage from "../../images/3.png";
+import "../Seamless/seamless.css";
+import myImage from "../../images/6.png";
+import babyImage from "../../images/7.png";
 
-const Seamless = () => {
+const Seamless2 = () => {
   return (
     <Fragment>
       <div className="mainContainer">
         <div className="subContainer">
           <div className="headContainer">
-            <p className="seamlessTitle">Seamless Scheduling</p>
+            <p className="seamlessTitle" style={{ backgroundColor: "#DDF4E4" }}>
+              Seamless Scheduling
+            </p>
           </div>
           <div className="contentContainer">
             <div className="leftContainer">
@@ -23,15 +25,14 @@ const Seamless = () => {
                 <img src={babyImage} alt="Ronak Agarawal" />
                 <div className="messageBox">
                   <p className="userMessage">
-                    I tested many calendar apps. This app is the best of all! It
-                    saves me hours of time.
+                    I've tried a lot of calendar apps, but this one is by far the best! It's so intuitive and 
                   </p>
-                  <p className="userDetails">Carla, Head of Finance</p>
+                  <p className="userDetails">Annie, Designer</p>
                 </div>
               </div>
             </div>
-            <div >
-              <img src={myImage}  alt="calender" />
+            <div>
+              <img src={myImage} alt="calender" />
             </div>
           </div>
         </div>
@@ -40,4 +41,4 @@ const Seamless = () => {
   );
 };
 
-export default Seamless;
+export default Seamless2;

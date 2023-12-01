@@ -1,6 +1,5 @@
 import React, { Fragment } from "react";
 import "./HomePage.css";
-import Seamless from "../Seamless/Seamless.js";
 import myImage from "../../images/1.png";
 
 const HomePage = () => {
@@ -44,7 +43,7 @@ const HomePage = () => {
               height: "auto",
             }}
             src={myImage}
-            alt="Description of the image"
+            alt="Description"
           />
           <div className="firstBtnDiv">Our main features 🦸🏼</div>
           <div className="firstSubDiv">Discover your new superpowers</div>

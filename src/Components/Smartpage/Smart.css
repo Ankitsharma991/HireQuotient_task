@@ -1,85 +1,85 @@
-.mainContainer {
+.mc {
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin-top: 10vh;
+  margin-top: 30vh;
 }
 
-.seamlessContainer {
+.mc {
   display: flex;
+  justify-content: center;
   flex-direction: column;
+  align-items: center;
+}
+
+.sc {
+  display: flex;
   width: 70vw;
+  flex-direction: column;
 }
 
-.seamlessTitle {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
+.st {
   color: #000000;
   padding: 0.5vmax 0.8vmax;
-  background-color: #fee9cb;
+  background-color: #CCEAFD;
   border-radius: 20px;
   font-size: 16px;
+  display: flex;
+  justify-content: flex-start;
   border: none;
-  width: 9vw;
+  width: 10vw;
+  margin-top: -5vh;
   font-weight: 700;
   font-family: "Plus Jakarta Sans", "Plus Jakarta Sans Placeholder", sans-serif;
   font-style: normal;
   line-height: 19px;
 }
 
-.subContainer {
+.cc {
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
 }
 
-.contentContainer {
-  display: flex;
-  justify-content: space-between;
-  column-gap: 10vmax;
-  margin-top: -1vmax;
-}
-
-.conversationBox {
+.cb {
   display: flex;
   column-gap: 1vmax;
 }
 
-.messageBox {
+.mb {
   display: flex;
-  flex-direction: column;
-  align-content: center;
   background-color: #2e2e2e;
   color: #ffffff;
   width: 18vw;
   height: 12vh;
+  flex-direction: column;
+  align-content: center;
   padding: 0vmax 0.8vmax;
   border-radius: 15px 15px 15px 0px;
 }
 
-.messageBox > p {
+.mb > p {
   background-color: #2e2e2e;
 }
 
-.userMessage {
+.um {
   font-family: Inter, "Inter Placeholder", sans-serif;
   font-size: 16px;
   line-height: 22px;
   font-weight: 600;
   color: #fefefe;
+  background-color: #2e2e2e;
 }
 
-.userDetails {
+.ud {
   font-family: Inter, "Inter Placeholder", sans-serif;
   font-size: 16px;
   line-height: 19px;
   font-weight: 600;
   margin-top: -0.3vmax;
+  background-color: #2e2e2e;
   color: #90909e;
 }
 
-.subHeading {
+.sh {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 800;
   font-size: 42px;
@@ -88,13 +88,13 @@
   color: #2e2e2e;
 }
 
-.conversationBox > img {
+.cb > img {
   height: 60px;
   width: 60px;
   margin-top: 8vh;
 }
 
-.paragraphExplain {
+.pe {
   color: #6b6b78;
   font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 500;
