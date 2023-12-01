@@ -1,24 +1,103 @@
 .mainContainer {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10vh;
 }
 
 .seamlessContainer {
   display: flex;
+  width: 70vw;
   flex-direction: column;
 }
 
 .seamlessTitle {
   color: #000000;
   padding: 0.5vmax 0.8vmax;
-  background-color: #f1f2f4;
+  background-color: #fee9cb;
   border-radius: 20px;
   font-size: 16px;
   display: flex;
   justify-content: start;
   border: none;
+  width: 9vw;
   font-weight: 700;
   font-family: "Plus Jakarta Sans", "Plus Jakarta Sans Placeholder", sans-serif;
   font-style: normal;
   line-height: 19px;
+}
+
+.subContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.contentContainer {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 10vmax;
+  margin-top: -1vmax;
+}
+
+.conversationBox {
+  display: flex;
+  column-gap: 1vmax;
+}
+
+.messageBox {
+  display: flex;
+  background-color: #2e2e2e;
+  color: #ffffff;
+  width: 18vw;
+  height: 12vh;
+  flex-direction: column;
+  align-content: center;
+  padding: 0vmax 0.8vmax;
+  border-radius: 15px 15px 15px 0px;
+}
+
+.messageBox > p {
+  background-color: #2e2e2e;
+}
+
+.userMessage {
+  font-family: Inter, "Inter Placeholder", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 600;
+  color: #fefefe;
+}
+
+.userDetails {
+  font-family: Inter, "Inter Placeholder", sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 600;
+  margin-top: -0.3vmax;
+  color: #90909e;
+}
+
+.subHeading {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 800;
+  font-size: 42px;
+  width: 30vw;
+  line-height: 52px;
+  color: #2e2e2e;
+}
+
+.conversationBox > img {
+  height: 60px;
+  width: 60px;
+  margin-top: 8vh;
+}
+
+.paragraphExplain {
+  color: #6b6b78;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  width: 26vw;
 }
