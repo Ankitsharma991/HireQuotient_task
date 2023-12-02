@@ -151,7 +151,7 @@ const data = [
 //   {
 //     id: 19,
 //     img: image3,
-//     title: '"“Better than the rest”"',
+  //     title: '"“Better than the rest”"',
 //     desc: "I've tried a lot of calendar apps, but this one is by far the best! It's so intuitive and customizable, and it has all the features I need. Game changer!",
 //     userName: "Kyle Conord",
 //     designation: "CEO of RoastingOS",

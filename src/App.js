@@ -14,7 +14,7 @@ import LastCall from "./Components/LastCall/LastCall";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Header />
       <HomePage />
       <Seamless />
