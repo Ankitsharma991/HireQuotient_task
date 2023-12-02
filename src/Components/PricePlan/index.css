@@ -102,10 +102,17 @@
   font-weight: 600;
 }
 
+.bottom_container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .card_container {
   display: flex;
   justify-content: space-around;
   margin-top: 5vh;
+  column-gap: 1.5vmax;
 }
 
 .card1 {
