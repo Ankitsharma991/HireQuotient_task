@@ -1,7 +1,7 @@
 import image1 from "../../images/d1.png";
 import image2 from "../../images/d2.png";
 import image3 from "../../images/d3.png";
-import image4 from "../../images/d4.png";
+// import image4 from "../../images/d4.png";
 
 const data = [
   {

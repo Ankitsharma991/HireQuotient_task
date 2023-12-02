@@ -67,7 +67,7 @@ const ProductsPage = () => {
                     alt="testimonial people"
                   />
 
-                  <p className="topicTitle">{item.title}</p>
+                 <p className="topicTitle">{item.title}</p>
                 </div>
                 <p>⭐⭐⭐⭐⭐</p>
               </div>

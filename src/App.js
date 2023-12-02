@@ -8,6 +8,7 @@ import Seamless2 from "./Components/Seamless2/Seamless2";
 import SmartPage2 from "./Components/Smart2/SmartPage2";
 import Features from "./Components/Features/Features";
 import ProductsPage from "./Components/Products/ProductsPage";
+import PricePlan from "./Components/PricePlan/PricePlan";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <SmartPage2 />
       <Features />
       <ProductsPage />
+      <PricePlan />
       <Footer />
     </div>
   );

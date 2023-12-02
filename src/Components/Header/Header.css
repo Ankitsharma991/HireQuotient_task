@@ -23,10 +23,7 @@
 }
 
 .navLinkContainer {
-  /* display: grid;
-    width: 45%;
-    justify-self: center;
-    grid-template-columns: repeat(5, 1fr); */
+
   align-items: flex-start;
   display: flex;
   flex: none;
