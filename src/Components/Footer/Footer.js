@@ -1,5 +1,8 @@
 import React, { Fragment } from "react";
 import "./Footer.css";
+import twitter from "../../images/twitter.svg"
+import facebook from "../../images/facebook.svg"
+import linkedIn from "../../images/linkedin.svg"
 
 const Footer = () => {
   return (
@@ -10,10 +13,10 @@ const Footer = () => {
             <h3>Milton</h3>
             <p>A short text explaining why my startup is so cool</p>
             <p>© My super start-up</p>
-            <div className="socialMediaContainer">
-              <p>Twitter</p>
-              <p>Facebook</p>
-              <p>LinkedIn</p>
+            <div className="socialMediaContainer" >
+              <img src={twitter} alt="Twitter"/>
+              <img src={facebook} alt="Facebook"/>
+              <img src={linkedIn} alt="Linkedin"/>
             </div>
           </div>
           <div className="col2">

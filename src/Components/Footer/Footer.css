@@ -4,6 +4,11 @@
   margin-top: 15vh;
   padding-bottom: 10vh;
   background-color: #f1f2f4;
+  padding-top: 5vh;
+}
+
+.col1{
+  margin-right: 2vw;
 }
 
 .col1 > h3,
@@ -23,8 +28,14 @@
 
 .socialMediaContainer {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   background-color: #f1f2f4;
+  column-gap: 2vw;
+}
+
+.socialMediaContainer>img{
+  height: 35px;
+  width: 35px;
 }
 
 .footerContainer > h3 {
