@@ -12,7 +12,7 @@ const PricePlan = () => {
           <div className="top_container">
             <p className="price_title">Pricing and plans 💰</p>
             <p className="price_heading">Find the best plan for your needs</p>
-          </div>
+         </div>
           <div className="bottom_container">
             <div className="selection_tab">
               <div className="mont_ann">

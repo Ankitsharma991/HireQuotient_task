@@ -1,0 +1,121 @@
+.mainFaqContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 15vh;
+}
+
+.faqContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70vw;
+}
+
+.topHeadingContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.faqTitle {
+  padding: 0.5vmax 0.8vmax;
+  background-color: #f1f2f4;
+  border-radius: 20px;
+  font-family: "Plus Jakarta Sans", "Plus Jakarta Sans Placeholder", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  line-height: 16px;
+  font-weight: 700;
+}
+
+.faqHeading {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 56px;
+  line-height: 67px;
+  font-weight: 800;
+  color: #2d2d2d;
+  margin: 0;
+}
+
+.qnaSection {
+  display: flex;
+  margin-top: 8vh;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1.5vmax;
+}
+
+.questionAnswer {
+  display: flex;
+  flex-direction: column;
+  background-color: #f1f2f4;
+  height: fit-content;
+  min-width: 45vw;
+  max-width: 45vw;
+  justify-content: center;
+  padding: 0.3vmax 0.8vmax;
+  border-radius: 15px;
+}
+
+.questionAnswer:hover{
+    cursor: pointer;
+}
+
+.question {
+  display: flex;
+  background-color: #f1f2f4;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.question > p {
+  background-color: #f1f2f4;
+  font-family: "Plus Jakarta Sans", "Plus Jakarta Sans Placeholder", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2d2d2d;
+}
+
+.answer {
+  background-color: #f1f2f4;
+}
+
+.answer > p {
+  background-color: #f1f2f4;
+  margin-top: 0;
+}
+
+.iconContainer {
+  height: 25px;
+  width: 25px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: #cbcbd1;
+  color: #000000;
+  border-radius: 50%;
+}
+
+.iconContainer > p {
+  background-color: transparent;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: 500;
+  color: #90909e;
+}
+
+.answer > p {
+  text-align: start;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  color: #6b6b78;
+  font-weight: 500;
+  margin-top: -1vh;
+}

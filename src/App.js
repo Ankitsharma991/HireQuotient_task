@@ -9,6 +9,7 @@ import SmartPage2 from "./Components/Smart2/SmartPage2";
 import Features from "./Components/Features/Features";
 import ProductsPage from "./Components/Products/ProductsPage";
 import PricePlan from "./Components/PricePlan/PricePlan";
+import Faqs from "./Components/FAQs/Faqs";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Features />
       <ProductsPage />
       <PricePlan />
+      <Faqs />
       <Footer />
     </div>
   );
