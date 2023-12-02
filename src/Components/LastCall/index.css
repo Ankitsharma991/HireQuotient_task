@@ -1,0 +1,118 @@
+.last_main_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 15vh;
+}
+
+.last_call_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70vw;
+}
+
+.last_call_title {
+  padding: 0.5vmax 0.8vmax;
+  background-color: #f1f2f4;
+  border-radius: 20px;
+  font-family: "Plus Jakarta Sans", "Plus Jakarta Sans Placeholder", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  line-height: 16px;
+  font-weight: 700;
+}
+
+.last_heading_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.last_heading {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 56px;
+  line-height: 67px;
+  font-weight: 800;
+  color: #2d2d2d;
+  margin: 0;
+}
+
+.last_call_start_btn {
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #2e2e2e;
+  padding: 0.8vmax 1.2vmax;
+  border-radius: 15px;
+  width: fit-content;
+  transition: all 0.3s ease-in-out;
+}
+
+.last_call_start_btn:hover {
+  transform: scale(1.1);
+}
+
+.last_call_bottom_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.last_call_desc {
+  color: #86858f;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 500;
+  max-width: 30vw;
+  text-align: center;
+}
+
+.last_call_user_box {
+  display: flex;
+  column-gap: 1vmax;
+  margin-top: 3vh;
+  margin-right: 6vw;
+}
+
+.last_call_user_box > img {
+  height: 60px;
+  width: 60px;
+  margin-top: 8vh;
+}
+
+.last_call_user_details {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  background-color: #fee9cb;
+  color: #2e2e2e;
+  width: 18vw;
+  height: 12vh;
+  padding: 0vmax 0.8vmax;
+  border-radius: 15px 15px 15px 0px;
+}
+
+.last_call_user_details > p {
+  background-color: #fee9cb;
+}
+
+.last_call_user_message {
+  font-family: Inter, "Inter Placeholder", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 600;
+  color: #2e2e2e;
+}
+.last_call_username {
+  font-family: Inter, "Inter Placeholder", sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 600;
+  margin-top: -0.2vmax;
+  color: #90909e;
+}

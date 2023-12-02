@@ -10,6 +10,7 @@ import Features from "./Components/Features/Features";
 import ProductsPage from "./Components/Products/ProductsPage";
 import PricePlan from "./Components/PricePlan/PricePlan";
 import Faqs from "./Components/FAQs/Faqs";
+import LastCall from "./Components/LastCall/LastCall";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <ProductsPage />
       <PricePlan />
       <Faqs />
+      <LastCall />
       <Footer />
     </div>
   );
