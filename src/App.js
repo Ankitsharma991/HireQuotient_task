@@ -6,6 +6,7 @@ import Seamless from "./Components/Seamless/Seamless";
 import SmartPage from "./Components/Smartpage/SmartPage";
 import Seamless2 from "./Components/Seamless2/Seamless2";
 import SmartPage2 from "./Components/Smart2/SmartPage2";
+import Features from "./Components/Features/Features";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <SmartPage />
       <Seamless2 />
       <SmartPage2 />
+      <Features />
       <Footer />
     </div>
   );
