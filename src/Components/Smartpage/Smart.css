@@ -50,10 +50,10 @@
   color: #ffffff;
   width: 18vw;
   height: 12vh;
-  flex-direction: column;
+   flex-direction: column;
   align-content: center;
   padding: 0vmax 0.8vmax;
-  border-radius: 15px 15px 15px 0px;
+  border-radius: 15px 15px 0px 15px;
 }
 
 .mb > p {

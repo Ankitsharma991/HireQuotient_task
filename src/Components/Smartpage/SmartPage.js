@@ -26,7 +26,6 @@ const SmartPage = () => {
                 ensuring your day is productive and stress-free.
               </p>
               <div className="cb">
-                <img src={babyImage} alt="Ronak Agarawal" />
                 <div className="mb">
                   <p className="um">
                     I love how user-friendly this app is! It's so easy to add
@@ -34,6 +33,7 @@ const SmartPage = () => {
                   </p>
                   <p className="ud">Adam, entrepreneur</p>
                 </div>
+                <img src={babyImage} alt="Ronak Agarawal" />
               </div>
             </div>
           </div>
