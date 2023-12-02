@@ -1,0 +1,133 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.8vmax;
+  justify-content: center;
+}
+
+.topRow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.titleDiv {
+  color: #2d2d2d;
+  background-color: #f1f2f4;
+  padding: 0.5vmax 0.8vmax;
+  font-family: "Plus Jakarta Sans", "Plus Jakarta Sans Placeholder", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.boldHeading {
+  text-align: center;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 67px;
+  margin-top: -1vh;
+}
+
+.firstLine {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  column-gap: 1vmax;
+}
+
+.cardBox {
+  display: flex;
+  flex-direction: column;
+  width: 25vw !important;
+  padding: 0.3vmax 0.8vmax;
+  height: 22vh;
+  background-color: #fff;
+  border-radius: 15px;
+  justify-content: flex-start;
+  border: 1px solid rgba(136, 127, 127, 0.1);
+  backdrop-filter: blur(100px);
+}
+
+.firstRow {
+  display: flex;
+  text-align: center;
+  color: #ffffff;
+  justify-content: space-between;
+}
+
+.topicTitle {
+  font-family: "Plus Jakarta Sans", "Plus Jakarta Sans Placeholder", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #2d2d2d;
+}
+
+.secondRow {
+  font-family: "Plus Jakarta Sans", "Plus Jakarta Sans Placeholder", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  flex: 1;
+  color: #ffffff;
+  line-height: 24px;
+  color: #6b6b78;
+}
+
+.imageTitle {
+  flex: 1;
+  column-gap: 1vmax;
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+  align-items: center;
+}
+
+.imageTitle > p {
+  text-align: center;
+}
+.imageT {
+  height: 50px;
+  width: 50px;
+  background-color: transparent;
+  border-radius: 50%;
+}
+
+.bottomRow {
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+}
+
+.deg {
+  font-family: "Plus Jakarta Sans", "Plus Jakarta Sans Placeholder", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #6b6b78;
+}
+.user {
+  font-family: "Plus Jakarta Sans", "Plus Jakarta Sans Placeholder", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #2d2d2d;
+}
+
+.secondLine {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  column-gap: 1vmax;
+}
+
+.thirdLine {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  column-gap: 1vmax;
+}
